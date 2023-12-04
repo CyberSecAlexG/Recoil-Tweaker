@@ -12,4 +12,6 @@ You can import any config file, and it will read it into the program.
 # PLEASE NOTE, THESE VALUES ARE MULTIPLIERS, NOT FLAT VALUES. FOR EXAMPLE, SETTING A VALUE TO 0.5 WILL HALVE THE DEFAULT VALUE.
 # ALSO, DO NOT SET ANY VALUES DIRECTLY TO 0, IT CAN BREAK THE GAME. SETTING RECOIL TO 0 WILL RESULT IN A BROKEN CAMERA.
 
-### Credits to Yim and Kiki for the idea, and code references.
+### Credits to Yim and Kiki for the idea, and code references. 
+### Use of the CustomTKinter: https://github.com/TomSchimansky/CustomTkinter
+### Use of the CustomMessageBox from https://github.com/Akascape/CTkMessagebox
