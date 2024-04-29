@@ -1,0 +1,132 @@
+{
+
+  "//// Brief Description of each value":"////",
+    "VerticalRecoil changes how much the gun moves upwards":"",
+    "HorizontalRecoil changes how much the gun moves sideways (or forwards?)":"",
+    "Convergence changes recoil auto compensation. It dictates how quickly your aim returns to center after firing. The *higher* it is, the snappier the gun is, and quicker it resets, and the less of a bump in recoil you get.":"",
+    "Dispersion changes the spread of the gun.":"",
+    "CameraRecoil changes how much your view moves upwards when firing.":"",
+    "CameraSnap is the speed at which your screen moves. The more snap, the more violent the camera recoil appears. The effect isn't obvious, I'd just leave it to the default values.":"",
+    "aimPunch removes aim punch when being shot at. Ever notice your screen goes up half a mile when you're being shot at? This removes it. Feel free to set this back to 1 if you want it back on.":"",
+    "recoilCrank is false by default. It changes recoil by visually moving the camera towards the shoulder instead of upwards.":"",
+    "recoilDamping determines the up/down wiggle of the gun when firing.":"",
+    "recoilHandDamping Front/rearward gun/arm wiggle of the gun when firing. Forward and back wiggle.":"",
+    "aimProceduralIntensity determines the overall weapon sway while ADS. This affects recoil, so setting this to 0.01 will also remove ADS recoil. Note that this does not affect hipfiring.":"",
+
+  "//// ALL OF THESE VALUES MULTIPLY THE CURRENT GAME VALUES. FOR EXAMPLE, SETTING gCameraRecoil TO 1, WILL KEEP THE VALUES TO DEFAULT. SETTING CameraRecoil TO 0.01, WILL MAKE THE DEFAULT VALUES 100 TIMES SMALLER.":"////",
+
+  "//// Toggle Settings":"////",
+
+    "globalToggle": true, "Set to false to use specific weapon class recoils, set to true to use global settings.":"",
+    "weaponClassToggle": true, "Set to true if you want to set weapon class recoil.":"",
+    "individualWeaponToggle": false, "Set to true if you want to set specific weapons recoil.":"",
+    "hiddenBonusRecoilToggle": false, "Tarkov has a hidden recoil value added to all guns that won't show in game. Toggling this to true will turn that back on.":"",
+
+  "//// Global Settings (Part 1)":"////",
+
+    "globalVerticalRecoil": 1,
+    "globalHorizontalRecoil": 1,
+    "globalConvergence": 1,
+    "globalDispersion": 1,
+    "globalCameraRecoil": 1,
+    "globalCameraSnap": 1,
+
+    "//// Global Settings (Part 2)":"////",
+    "//// These settings cannot be disabled.":"////",
+
+    "aimPunch": 0,
+    "recoilCrank": false,
+    "recoilDamping": 0.95714285714,
+    "recoilHandDamping": 1.44444444444,
+    "aimProceduralIntensity": 0.8,
+
+    "// Advanced pose recoil values. Each line determines recoil direction depending on the stance. Play around with them if you want, you do not need too.":"",
+
+    "RecoilXIntensityByPoseX": 1.91428571429,
+    "RecoilXIntensityByPoseY": 1,
+    "RecoilXIntensityByPoseZ": 1,
+    "RecoilYIntensityByPoseX": 0.92857142857,
+    "RecoilYIntensityByPoseY": 1.71428571429,
+    "RecoilYIntensityByPoseZ": 1,
+    "RecoilZIntensityByPoseX": 0.71428571428,
+    "RecoilZIntensityByPoseY": 1.92857142857,
+    "RecoilZIntensityByPoseZ": 1,
+    "ProceduralIntensityByPoseX": 0.15151515151,
+    "ProceduralIntensityByPoseY": 0.60606060606,
+    "ProceduralIntensityByPoseZ": 1,
+
+  "//// Weapon Class Recoil Settings":"////",
+
+    "//// Pistol Recoil":"////",
+
+    "pistolVerticalRecoil": 0.6,
+    "pistolHorizontalRecoil": 2,
+    "pistolConvergence": 4,
+    "pistolDispersion": 0.5,
+    "pistolCameraRecoil": 1,
+    "pistolCameraSnap": 1.7,
+
+    "//// SMG Recoil":"////",
+
+    "smgVerticalRecoil": 1,
+    "smgHorizontalRecoil": 0.75,
+    "smgConvergence": 2.5,
+    "smgDispersion": 0.95,
+    "smgCameraRecoil": 0.5,
+    "smgCameraSnap": 0.5,
+
+    "//// Shotgun Recoil":"////",
+
+    "shotgunVerticalRecoil": 1,
+    "shotgunHorizontalRecoil": 0.75,
+    "shotgunConvergence": 2.5,
+    "shotgunDispersion": 0.95,
+    "shotgunCameraRecoil": 0.5,
+    "shotgunCameraSnap": 0.5,
+
+    "//// Assault Carbines":"////",
+
+    "carbineVerticalRecoil": 1,
+    "carbineHorizontalRecoil": 0.75,
+    "carbineConvergence": 2.5,
+    "carbineDispersion": 0.95,
+    "carbineCameraRecoil": 0.5,
+    "carbineCameraSnap": 0.5,
+
+    "//// Assault Rifles:":"////",
+
+    "rifleVerticalRecoil": 1,
+    "rifleHorizontalRecoil": 0.75,
+    "rifleConvergence": 2.5,
+    "rifleDispersion": 0.95,
+    "rifleCameraRecoil": 0.5,
+    "rifleCameraSnap": 0.5,
+
+    "//// Machine Guns (literally just the RPK...)":"////",
+
+    "mgVerticalRecoil": 1,
+    "mgHorizontalRecoil": 0.75,
+    "mgConvergence": 2.5,
+    "mgDispersion": 0.95,
+    "mgCameraRecoil": 0.5,
+    "mgCameraSnap": 0.5,
+
+    "//// Marksman Rifles":"////",
+
+    "marksmanVerticalRecoil": 1,
+    "marksmanHorizontalRecoil": 0.75,
+    "marksmanConvergence": 2.5,
+    "marksmanDispersion": 0.95,
+    "marksmanCameraRecoil": 0.5,
+    "marksmanCameraSnap": 0.5,
+
+    "//// Sniper Rifles":"////",
+
+    "sniperVerticalRecoil": 1,
+    "sniperHorizontalRecoil": 0.75,
+    "sniperConvergence": 2.5,
+    "sniperDispersion": 0.95,
+    "sniperCameraRecoil": 0.5,
+    "sniperCameraSnap": 0.5
+
+}
