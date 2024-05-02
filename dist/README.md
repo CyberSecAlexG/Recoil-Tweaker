@@ -5,7 +5,8 @@ Individual weapon settings are turned off by default.
 If you want to use presets, please go to the preset folder within the mod folder and open README.txt, aka:
 CreamCheese-RecoilTweaks/presets/README.txt
 
-The new Recoil Tweaker GUI can also now be used in the RecoilTweakerGUI folder. Please open the RecoilTweakerGUI.exe to use!
+The new Recoil Tweaker GUI can also now be used in the main directory of Recoil Tweaker. Please open the RecoilTweakerGUI.exe to use!
+Windows Defender may incorrectly see it as a virus, this is not the case. Please refer to my VirusTotal result on the SPT Tarkov website.
 Press export to save your changes, make sure the file is saved as config.json.
 You can import any config file, and it will read it into the program.
 
